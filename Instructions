@@ -3,7 +3,7 @@ There are 4 parts to this assessment:
 -Extending the vehicle class to show when the vehicle was last serviced, print the total revenue, and Km since the 
   last service
 -Create the PerKmRental class that tracks cost of renting the car, has a default cost of $1 per day,
-  stores the charing rate, and has a cosntructor that accepts the number of km traveled.
+  stores the charing rate, and has a constructor that accepts the number of km traveled.
 -Create the PerDayRental class that tracks the cost of renting per day (default of $100 per day), has a constructor that
   accepts the number of Km traveled AND the number of days the car was rented, and can hold the charge rate.
 -Creating a service class that records the service for the vehicle class.
