@@ -8,7 +8,7 @@
  * @author 041401093
  */
 public class PerKmRental {
-    //Declarign variables
+    //Declaring variables
     private double ratePerKm = 1;
     private double km;
     private double totalCost;
@@ -19,7 +19,7 @@ public class PerKmRental {
         km = gettingKm.getKilometers();
     }
     //Method that computes the total cost
-    private double computeKm(){
+    double computeKm(){
         totalCost = km * ratePerKm;
         return totalCost;
     }

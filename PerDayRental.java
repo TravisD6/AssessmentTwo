@@ -9,11 +9,20 @@
  */
 public class PerDayRental {
     
-    private double km;
+    private double perDayKm;
     private final int CHARGE_RATE_DAY = 100;
     private double totalCost;
+    private int daysRented;
     
-    PerDayRental(){
-        
+    private Journey getKm;
+    
+    PerDayRental(int daysRented){
+        perDayKm = getKm.getKilometers();
+        daysRented =  this.daysRented;
+    }
+    
+    double computeDays() {
+        totalCost = CHARGE_RATE_DAY * daysRented;
+        return totalCost;
     }
 }
